@@ -1,5 +1,11 @@
 {{page-title "Application"}}
 
 
+<div>
+{{#each model as |post|}}
+    <span><strong>{{post.title}}: </strong></span><br>
+    <span>  {{post.body}}</span>
+{{/each}}
+</div>
 
 {{outlet}}
