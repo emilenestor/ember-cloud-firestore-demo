@@ -16,6 +16,29 @@ module.exports = function (environment) {
         Date: false,
       },
     },
+    
+    'ember-cloud-firestore-adapter': {
+      firebaseConfig: {
+        // apiKey: '<api_key>',
+        // authDomain: '<auth_domain>',
+        // databaseURL: '<database_url>',
+        // projectId: '<project_id>',
+        // storageBucket: '<storage_bucket>',
+        // messagingSenderId: '<messaging_sender_id>',
+      },
+      firestore: {
+        // emulator: {
+        //   hostname: 'localhost',
+        //   port: 8080,
+        // },
+      },
+      auth: {
+        // emulator: {
+        //   hostname: 'localhost',
+        //   port: 9099,
+        // },
+      },
+    },
 
     APP: {
       // Here you can pass flags/options to your application instance
