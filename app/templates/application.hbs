@@ -1,10 +1,11 @@
 {{page-title "Application"}}
 
+<button type="button" {{action "createPost"}}>Add Post</button>
 
 <div>
 {{#each model as |post|}}
     <span><strong>{{post.title}}: </strong></span><br>
-    <span>  {{post.body}}</span>
+    <span>&nbsp;&nbsp;&nbsp;{{post.body}}</span><br><br>
 {{/each}}
 </div>
 
